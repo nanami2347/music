@@ -1,0 +1,26 @@
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Form</title>
+  </head>
+  <body>
+	<h2>クラッシック音楽検索</h2>
+	<h4>※指定したいところのみ入力してください</h4>
+	<form method="POST">
+		世紀：<br> <input type="text" name="century"><br>
+		作曲者：<br> <input type="text" name="name"><br>
+		形式：<br><select size="1" name="type" id="office54"> 
+			<option value="クラッシック音楽">選択しない</option>
+			<option value="交響曲">交響曲</option>
+			 <option value="協奏曲">協奏曲</option>
+			  <option value="吹奏楽">吹奏楽</option>
+			 </select><br>
+		使用楽器：<br> <input type="text" name="gakki"><br>
+		<select size="1" name="sentaku" id="office54"> 
+			<option value="を使用する">使用する</option>
+			 <option value="を使用しない">使用しない</option>
+			 </select><br><br>
+		<input type="submit" name="submit">
+    	</form>
+  </body>
+</html>
